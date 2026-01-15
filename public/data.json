@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Spigen Ultra Hybrid MagFit Case for iPhone 16 Pro",
+    "category": "phone_case",
+    "brand": "Spigen",
+    "price": 29.99,
+    "currency": "USD",
+    "imageUrl": "https://geni.us/UltraHybridT",
+    "description": "Clear MagSafe-compatible hybrid case for iPhone 16 Pro with reinforced corners and scratch-resistant back for everyday protection.",
+    "tags": ["iphone 16 pro", "magsafe", "clear case"]
+  },
+  {
+    "id": 2,
+    "name": "Spigen Tough Armor Case for iPhone 16",
+    "category": "phone_case",
+    "brand": "Spigen",
+    "price": 34.99,
+    "currency": "USD",
+    "imageUrl": "https://geni.us/DpZQ",
+    "description": "Rugged dual-layer protective case with air-cushion technology and built-in kickstand designed for heavy-duty drop protection.",
+    "tags": ["rugged", "kickstand", "drop protection"]
+  },
+  {
+    "id": 3,
+    "name": "Spigen Liquid Air Case for Galaxy S24",
+    "category": "phone_case",
+    "brand": "Spigen",
+    "price": 19.99,
+    "currency": "USD",
+    "imageUrl": "https://geni.us/Du6BB",
+    "description": "Slim, grippy TPU case with matte finish and military-grade certified protection for Samsung Galaxy S24.",
+    "tags": ["galaxy s24", "slim case", "matte finish"]
+  },
+  {
+    "id": 4,
+    "name": "Spigen Rugged Armor Case for Pixel 9",
+    "category": "phone_case",
+    "brand": "Spigen",
+    "price": 21.99,
+    "currency": "USD",
+    "imageUrl": "https://geni.us/GvVvnT",
+    "description": "Flexible TPU case with carbon-fiber accents and raised edges for camera and screen protection for Google Pixel 9.",
+    "tags": ["pixel 9", "rugged", "tpu"]
+  },
+  {
+    "id": 5,
+    "name": "Spigen Thin Fit Case for iPhone 16",
+    "category": "phone_case",
+    "brand": "Spigen",
+    "price": 17.99,
+    "currency": "USD",
+    "imageUrl": "https://geni.us/1Xpaq",
+    "description": "Minimalist snap-on case that keeps a slim profile while protecting against scratches and minor drops.",
+    "tags": ["thin case", "minimal", "lightweight"]
+  },
+  {
+    "id": 6,
+    "name": "Anker 20000mAh 30W Power Bank",
+    "category": "power_bank",
+    "brand": "Anker",
+    "price": 49.99,
+    "currency": "USD",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/power-bank/anker/20000mah-30w/20000mah-30w-01-228x228.webp",
+    "description": "High-capacity 20000mAh power bank with dual USB-C and USB-A ports and 30W PD fast charging for phones, tablets, and handheld consoles.",
+    "tags": ["20000mah", "30w", "power delivery"]
+  },
+  {
+    "id": 7,
+    "name": "Anker Zolo 10000mAh 30W Power Bank with Built-in USB-C Cable",
+    "category": "power_bank",
+    "brand": "Anker",
+    "price": 39.99,
+    "currency": "USD",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/power-bank/anker/zolo-10000mah-30w/zolo-10000mah-30w-01-228x228.webp",
+    "description": "Compact 10000mAh power bank with integrated USB-C cable and 30W fast charging, ideal for travel and daily carry.",
+    "tags": ["10000mah", "built-in cable", "usb-c"]
+  },
+  {
+    "id": 8,
+    "name": "Anker MagGo 10000mAh Magnetic Wireless Power Bank",
+    "category": "power_bank",
+    "brand": "Anker",
+    "price": 69.99,
+    "currency": "USD",
+    "imageUrl": "https://www.anker.com/cdn/shop/products/a1654h11_detail_1.webp",
+    "description": "MagSafe-compatible 10000mAh wireless power bank with foldable stand for hands-free viewing while charging.",
+    "tags": ["magsafe", "wireless", "stand"]
+  },
+  {
+    "id": 9,
+    "name": "Anker 10000mAh 22.5W Power Bank with Digital Display",
+    "category": "power_bank",
+    "brand": "Anker",
+    "price": 34.99,
+    "currency": "USD",
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/power-bank/anker/10000mah-22.5w/10000mah-22.5w-01-228x228.webp",
+    "description": "Slim 10000mAh power bank with USB-C and USB-A ports, 22.5W fast charge, and smart digital battery indicator.",
+    "tags": ["fast charge", "display", "10000mah"]
+  },
+  {
+    "id": 10,
+    "name": "Anker Prime 27650mAh 250W Power Bank (737)",
+    "category": "power_bank",
+    "brand": "Anker",
+    "price": 179.99,
+    "currency": "USD",
+    "imageUrl": "https://www.anker.com/cdn/shop/products/a1334_powerbank.webp",
+    "description": "Premium 27650mAh multi-port power bank with up to 250W total output, ideal for laptops, tablets, and phones on the go.",
+    "tags": ["high capacity", "laptop charging", "multi-port"]
+  },
+  {
+    "id": 11,
+    "name": "Anker 733 GaNPrime 65W 2-in-1 Charger & Power Bank",
+    "category": "charger",
+    "brand": "Anker",
+    "price": 99.99,
+    "currency": "USD",
+    "imageUrl": "https://www.anker.com/cdn/shop/products/a1651_charger.webp",
+    "description": "Hybrid 65W GaN wall charger and 10000mAh power bank in one, featuring dual USB-C and USB-A ports for fast multi-device charging.",
+    "tags": ["gan", "65w", "2-in-1"]
+  },
+  {
+    "id": 12,
+    "name": "Anker Nano II 65W USB-C Charger",
+    "category": "charger",
+    "brand": "Anker",
+    "price": 39.99,
+    "currency": "USD",
+    "imageUrl": "https://www.anker.com/cdn/shop/products/a2663_charger.webp",
+    "description": "Compact GaN-based 65W USB-C charger capable of powering laptops, tablets, and phones with USB Power Delivery.",
+    "tags": ["gan", "usb-c", "65w"]
+  },
+  {
+    "id": 13,
+    "name": "Anker 3-in-1 Cube with MagSafe",
+    "category": "charger",
+    "brand": "Anker",
+    "price": 149.99,
+    "currency": "USD",
+    "imageUrl": "https://www.anker.com/cdn/shop/products/a3382_magsafe.webp",
+    "description": "Foldable MagSafe charging cube for iPhone, Apple Watch, and AirPods with compact travel-friendly design.",
+    "tags": ["3-in-1", "magsafe", "wireless charging"]
+  },
+  {
+    "id": 14,
+    "name": "Sony WF-1000XM5 True Wireless Earbuds",
+    "category": "earbuds",
+    "brand": "Sony",
+    "price": 299.99,
+    "currency": "USD",
+    "imageUrl": "https://m.media-amazon.com/images/I/61OFiS7mbHL._AC_SL1500_.jpg",
+    "description": "Flagship noise-cancelling earbuds with premium sound, adaptive ANC, and up to 8 hours of playback per charge.",
+    "tags": ["anc", "bluetooth", "sony"]
+  },
+  {
+    "id": 15,
+    "name": "Apple AirPods Pro (2nd generation)",
+    "category": "earbuds",
+    "brand": "Apple",
+    "price": 249.00,
+    "currency": "USD",
+    "imageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-pro-2nd-gen-usb-c-202309",
+    "description": "True wireless earbuds with active noise cancellation, Adaptive Audio, and USB‑C charging case for Apple devices.",
+    "tags": ["airpods", "anc", "usb-c"]
+  },
+  {
+    "id": 16,
+    "name": "Beats Fit Pro True Wireless Earbuds",
+    "category": "earbuds",
+    "brand": "Beats",
+    "price": 199.99,
+    "currency": "USD",
+    "imageUrl": "https://m.media-amazon.com/images/I/51wTLDT9IEL._AC_SL1500_.jpg",
+    "description": "Secure-fit wingtip earbuds with powerful sound, spatial audio support, and active noise cancellation for workouts and daily use.",
+    "tags": ["workout", "noise cancelling", "beats"]
+  },
+  {
+    "id": 17,
+    "name": "Sennheiser MOMENTUM True Wireless 4",
+    "category": "earbuds",
+    "brand": "Sennheiser",
+    "price": 279.95,
+    "currency": "USD",
+    "imageUrl": "https://m.media-amazon.com/images/I/71QB8TFn5mL._AC_SL1500_.jpg",
+    "description": "Premium audiophile-grade earbuds with advanced Bluetooth, strong ANC, and detailed sound signature.",
+    "tags": ["audiophile", "anc", "sennheiser"]
+  },
+  {
+    "id": 18,
+    "name": "SoundPEATS Capsule3 Pro+ Wireless Earbuds",
+    "category": "earbuds",
+    "brand": "SoundPEATS",
+    "price": 89.99,
+    "currency": "USD",
+    "imageUrl": "https://m.media-amazon.com/images/I/61d3vGN9p3L._AC_SL1500_.jpg",
+    "description": "Budget-friendly wireless earbuds with xMEMS drivers delivering detailed sound and effective hybrid noise cancellation.",
+    "tags": ["budget", "wireless", "noise cancelling"]
+  },
+  {
+    "id": 19,
+    "name": "Anker Soundcore Liberty 4 NC",
+    "category": "earbuds",
+    "brand": "Soundcore",
+    "price": 99.99,
+    "currency": "USD",
+    "imageUrl": "https://m.media-amazon.com/images/I/61pi5BFEJ6L._AC_SL1500_.jpg",
+    "description": "True wireless earbuds with adaptive ANC, customizable EQ, and long battery life for everyday listening.",
+    "tags": ["soundcore", "anc", "true wireless"]
+  },
+  {
+    "id": 20,
+    "name": "Anker 313 Wireless Charger Stand",
+    "category": "charger",
+    "brand": "Anker",
+    "price": 24.99,
+    "currency": "USD",
+    "imageUrl": "https://m.media-amazon.com/images/I/61vWcj0vWcL._AC_SL1500_.jpg",
+    "description": "Qi-certified wireless charging stand that supports up to 10W charging for compatible iPhone and Android devices.",
+    "tags": ["wireless charger", "stand", "qi"]
+  }
+]

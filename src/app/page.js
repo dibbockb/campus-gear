@@ -8,7 +8,7 @@ export default function Home() {
             Affordable Gadgets for University Life
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            Phone cases, chargers, earbuds, power banks — all under ৳1500.
+            Phone cases, chargers, earbuds, power banks — all under ৳3000.
             No more broke-student vibes.
           </p>
           <a
