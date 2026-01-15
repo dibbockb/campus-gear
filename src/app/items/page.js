@@ -25,12 +25,11 @@ export default async function ItemsPage() {
                             href={`/items/${item.id}`}
                             className="bg-surface rounded-xl shadow-lg border border-primary/10 overflow-hidden hover:shadow-xl hover:scale-105 transition duration-300 flex flex-col group"
                         >
-                            <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden bg-white relative h-64">
-                                {/* Fallback or real image - using simple img for now */}
+                            <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden bg-[black] relative h-64">
                                 <img
                                     src={item.imageUrl}
                                     alt={item.name}
-                                    className="w-full h-full object-contain p-4 group-hover:opacity-90 transition"
+                                    className="w-full h-full object-contain p-4 group-hover:opacity-90 transition rounded-2xl"
                                 />
                             </div>
                             <div className="p-6 flex-1 flex flex-col">
