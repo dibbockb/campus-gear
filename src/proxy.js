@@ -1,16 +1,14 @@
 import { NextResponse } from 'next/server';
 
-export function middleware(request) {
+export function proxy(request) {
   const pathname = request.nextUrl.pathname;
 
-  // Define all protected routes
   const protectedPaths = [
-    '/add',                    // your add item page
-    // add more if needed, e.g. '/profile', '/dashboard'
+    '/add',                   
   ];
 
   // Check if current path starts with any protected path
-  const isProtected = protectedPaths.some(path => 
+  const isProtected = protectedPaths.some(path =>
     pathname === path || pathname.startsWith(`${path}/`)
   );
 
