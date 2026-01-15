@@ -4,14 +4,28 @@ import Link from 'next/link';
 import { useTheme } from 'next-themes';
 import { FaSun, FaMoon } from 'react-icons/fa6';
 import { useEffect, useState } from 'react';
+import Cookies from 'js-cookie';
+import { useRouter, usePathname } from 'next/navigation';
 
 export default function Navbar() {
     const { theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const router = useRouter();
+    const pathname = usePathname();
 
     useEffect(() => {
         setMounted(true);
-    }, []);
+        const loginCookie = Cookies.get('isLoggedin');
+        setIsLoggedIn(loginCookie === 'true');
+    }, [pathname]);
+
+    const handleLogout = () => {
+        Cookies.remove('isLoggedin');
+        setIsLoggedIn(false);
+        router.push('/login');
+        router.refresh();
+    };
 
     return (
         <nav className="bg-surface text-primary border-b border-primary/20 sticky top-0 z-50">
@@ -35,9 +49,19 @@ export default function Navbar() {
                         <Link href="/items" className="hover:text-foreground transition">
                             Items
                         </Link>
-                        <Link href="/login" className="hidden md:inline-block px-4 py-2 rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition">
-                            Login
-                        </Link>
+
+                        {isLoggedIn ? (
+                            <button
+                                onClick={handleLogout}
+                                className="hidden md:inline-block px-4 py-2 rounded-lg bg-red-600 text-white hover:opacity-90 transition"
+                            >
+                                Logout
+                            </button>
+                        ) : (
+                            <Link href="/login" className="hidden md:inline-block px-4 py-2 rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition">
+                                Login
+                            </Link>
+                        )}
 
                         {mounted && (
                             <button
