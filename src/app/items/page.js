@@ -9,6 +9,11 @@ async function getItems() {
     return JSON.parse(fileContents);
 }
 
+export const metadata = {
+    title: 'All Items',
+    description: 'Browse all our campus gear',
+};
+
 export default async function ItemsPage() {
     const items = await getItems();
 

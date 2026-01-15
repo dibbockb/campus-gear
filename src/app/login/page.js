@@ -17,15 +17,11 @@ function LoginForm() {
         e.preventDefault();
         setError('');
 
-        // Hardcoded credentials check
         if (email === 'instructor@proghero.com' && password === 'pakhipakapepekhay') {
-            // Set cookie
-            Cookies.set('isLoggedin', 'true', { expires: 1 }); // Expires in 1 day
+            Cookies.set('isLoggedin', 'true',); 
 
-            // Redirect to returnUrl if exists, otherwise home or items
             router.push(returnUrl || '/items');
-            router.refresh(); // Refresh to update navbar state if needed
-        } else {
+            router.refresh(); 
             setError('Invalid email or password');
         }
     };

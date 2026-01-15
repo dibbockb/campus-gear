@@ -6,9 +6,11 @@
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
   --color-surface: var(--surface);
+  --font-sans: "Rubik", sans-serif;
 }
 
 :root {
+  color-scheme: light;
   --background: #ffffff;
   --foreground: #ea580c;
   --primary: #ea580c;
@@ -16,10 +18,11 @@
   --surface: #fff7ed;
 }
 
-.dark {
+html.dark {
+  color-scheme: dark;
   --background: #1a1a1a;
-  --foreground: #fb923c;
-  --primary: #fb923c;
+  --foreground: #F28021;
+  --primary: #F28021;
   --primary-foreground: #1a1a1a;
   --surface: #262626;
 }

@@ -8,8 +8,23 @@ async function getItem(id) {
     const filePath = path.join(process.cwd(), 'public', 'data.json');
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const items = JSON.parse(fileContents);
-    // id in data.json is number
     return items.find((item) => item.id === parseInt(id));
+}
+
+export async function generateMetadata({ params }) {
+    const { id } = await params;
+    const item = await getItem(id);
+
+    if (!item) {
+        return {
+            title: 'Item Not Found',
+        };
+    }
+
+    return {
+        title: item.name,
+        description: item.description,
+    };
 }
 
 export default async function ItemDetailsPage({ params }) {
@@ -30,11 +45,11 @@ export default async function ItemDetailsPage({ params }) {
                 </div>
 
                 <div className="bg-surface rounded-2xl shadow-xl border border-primary/10 overflow-hidden grid grid-cols-1 md:grid-cols-2">
-                    <div className="p-8 bg-white flex items-center justify-center min-h-[400px]">
+                    <div className="p-8 bg-black flex items-center justify-center min-h-100">
                         <img
                             src={item.imageUrl}
                             alt={item.name}
-                            className="max-h-[500px] w-full object-contain"
+                            className="max-h-125 w-full object-contain"
                         />
                     </div>
 
@@ -56,7 +71,7 @@ export default async function ItemDetailsPage({ params }) {
                             {item.currency === 'USD' ? '$' : '৳'}{item.price}
                         </div>
 
-                        <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
+                        <p className="text-lg text-black dark:text-gray-300 mb-8 leading-relaxed">
                             {item.description}
                         </p>
 

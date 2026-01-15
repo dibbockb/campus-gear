@@ -53,12 +53,12 @@ export default function Navbar() {
                         {isLoggedIn ? (
                             <button
                                 onClick={handleLogout}
-                                className="hidden md:inline-block px-4 py-2 rounded-lg bg-red-600 text-white hover:opacity-90 transition"
+                                className=" md:inline-block px-4 py-2 rounded-lg bg-red-600 text-white hover:opacity-90 transition"
                             >
                                 Logout
                             </button>
                         ) : (
-                            <Link href="/login" className="hidden md:inline-block px-4 py-2 rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition">
+                            <Link href="/login" className=" md:inline-block px-4 py-2 rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition">
                                 Login
                             </Link>
                         )}
