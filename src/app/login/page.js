@@ -18,10 +18,10 @@ function LoginForm() {
         setError('');
 
         if (email === 'instructor@proghero.com' && password === 'pakhipakapepekhay') {
-            Cookies.set('isLoggedin', 'true',); 
+            Cookies.set('isLoggedin', 'true',);
 
             router.push(returnUrl || '/items');
-            router.refresh(); 
+            router.refresh();
             setError('Invalid email or password');
         }
     };
@@ -61,6 +61,19 @@ function LoginForm() {
                         onChange={(e) => setPassword(e.target.value)}
                     />
                 </div>
+            </div>
+
+            <div>
+                <button
+                    type="button"
+                    onClick={() => {
+                        setEmail('instructor@proghero.com');
+                        setPassword('pakhipakapepekhay');
+                    }}
+                    className="w-full flex justify-center py-2 px-4 border border-primary text-sm font-medium rounded-md text-primary bg-transparent hover:bg-primary/10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition"
+                >
+                    Fill Mock Login Details
+                </button>
             </div>
 
             {error && (
