@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
+import FAQ from '../components/FAQ';
 import {
   FaMobileAlt,
   FaHeadphones,
@@ -175,6 +176,8 @@ export default async function Home() {
           </div>
         </div>
       </section>
+
+      <FAQ />
 
       <section className="py-20 px-4 bg-background">
         <div className="max-w-6xl mx-auto">
